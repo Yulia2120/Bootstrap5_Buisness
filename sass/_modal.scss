@@ -1,0 +1,26 @@
+.loader {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  z-index: 99999;
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+
+input.form-control {
+  border-color: transparent;
+  height: 44px;
+}
+
+.form-control {
+  background-color: rgba(0, 0, 0, 0.04);
+  border-color: rgba(0, 0, 0, 0.04);
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: $brand;
+}

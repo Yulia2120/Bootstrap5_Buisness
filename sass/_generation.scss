@@ -1,0 +1,41 @@
+body {
+  font-family: "Barlow", sans-serif;
+  line-height: 1.7;
+  color: $body;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.display-1,
+.display-2,
+.display-3,
+.display-4 {
+  font-weight: 700;
+  color: $dark;
+}
+.bg-cover {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+img {
+  width: 100%;
+}
+a {
+  color: $dark;
+  transition: all 0.4s ease;
+  font-weight: 500;
+}
+a:hover {
+  color: $brand;
+}
+section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.text-brand {
+  color: $brand !important;
+}
